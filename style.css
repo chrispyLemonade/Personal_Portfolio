@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #080808;
+    background: #000000;
     color: #fff;
 }
 #header{
@@ -42,7 +42,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #ffd44f;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -60,7 +60,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #ffd44f;
 }
 /* ------------about----------- */
 #about{
@@ -101,7 +101,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #ffd44f;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -115,7 +115,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #ffeb3e;
     font-size: 14px;
 }
 .tab-contents{
