@@ -249,12 +249,14 @@ nav ul li a:hover::after{
 }
 .contact-left p{
     margin-top: 30px;
-
 }
 .contact-left p i{
     color: #ffd44f;
     margin-right: 15px;
     font-size: 25px;
+}
+.contact-right button{
+    background-color: transparent;
 }
 .social-icons{
     margin-top: 30px;
@@ -273,6 +275,10 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
     display: inline-block;
+    color: #fff;
+    transition: background 0.5s;
+}
+.btn.btn2:hover{
     background: #ffd44f;
 }
 .contact-right form{
