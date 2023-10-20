@@ -79,6 +79,7 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
+    /* display: block; */
     width: 100%;
     border-radius: 15px;
 }
@@ -119,7 +120,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #ffeb3e;
-    font-size: 14px;
+    font-size: 18px;
 }
 .tab-contents{
     display: none;
