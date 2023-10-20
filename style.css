@@ -117,10 +117,15 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    animation: fadeIn 0.5s;
 }
 .tab-contents ul li span{
     color: #ffeb3e;
     font-size: 18px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 .tab-contents{
     display: none;
